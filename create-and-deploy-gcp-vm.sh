@@ -1,13 +1,13 @@
 #!/bin/bash
 
 # --- CONFIGURATION ---
-PROJECT_ID="project-ee236072-e4f5-4866-b68"
+PROJECT_ID="YOUR_PROJECT_ID"
 ZONE="us-central1-a"
 INSTANCE_NAME="apex-bank-vm"
 MACHINE_TYPE="e2-medium" # 2 vCPU, 4GB RAM - Recommended for building React
 IMAGE_FAMILY="ubuntu-2204-lts"
 IMAGE_PROJECT="ubuntu-os-cloud"
-GEMINI_API_KEY="AIzaSyCNDC3MVzpTD20KN2H7-lFh7uPLE5RSQeA"
+GEMINI_API_KEY="YOUR_GEMINI_API_KEY"
 
 echo "🏗 Starting Full Infrastructure & App Deployment..."
 
