@@ -1,0 +1,8 @@
+{
+  "name": "Apex Bank Live Support Agent",
+  "description": "A high-performance banking support agent powered by Gemini Live API, featuring real-time natural voice interaction, graceful interruption handling, and account assistance.",
+  "requestFramePermissions": [
+    "microphone",
+    "camera"
+  ]
+}
