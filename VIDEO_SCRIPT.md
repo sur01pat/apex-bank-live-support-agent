@@ -2,82 +2,158 @@
 **Duration:** ~2:30 - 3:00 Minutes
 **Hashtag:** #GeminiLiveAgentChallenge
 
----
+# Apex Global Bank – Multimodal AI Concierge Demo (3-Minute Video Script)
 
-## [0:00 - 0:30] Introduction & Hook
-**(Visual: Host on camera, high-tech bank dashboard in background)**
+## 0:00 – 0:12 | Opening
 
-**Host:** "Banking has become a series of cold, transactional clicks. But what if your bank could actually *see* you, *hear* you, and *visualize* your financial future in real-time?"
+**Visual**
+Apex Global Bank logo → transition into modern banking dashboard.
 
-**Host:** "Hi, I'm [Your Name], and for the **#GeminiLiveAgentChallenge**, I built **Cognivox**—the Multimodal Concierge for Apex Global Bank. It’s not just a chatbot; it’s a living interface powered by the Gemini Live API."
+**Narrator**
 
----
+Welcome to **Apex Global Bank**.
+We’ve reimagined the banking experience by combining **elite security with the power of Multimodal AI**.
 
-## [0:30 - 1:45] The Live Demo & Interruption
-**(Visual: Screen recording of the app. Host clicks 'Connect Private Uplink')**
-
-**Host:** "Let’s see it in action. I’ll start a secure uplink."
-
-**(Action: Host speaks to the agent)**
-**Host (to Agent):** "Hello, can you check my Premium Checking balance and show me a summary card of my recent activity?"
-
-**(Action: Agent responds in real-time voice. An Imagen-generated card appears in the sidebar)**
-**Agent:** "Certainly. Your balance is $3,210.50. I've generated a summary card for you."
-
-**Host:** "The agent uses **Gemini 2.5 Flash Live** for the conversation and **Imagen 3** to create these custom visual assets on the fly. But it's not just about speed—it's about natural interaction. Watch how it handles an interruption."
-
-**(Action: Host asks a complex question, then cuts the agent off)**
-**Host (to Agent):** "Can you explain the benefits of the High-Yield Savings account compared to the Global Investment account?"
-
-**(Action: Agent starts a detailed explanation)**
-**Agent:** "Certainly. The High-Yield Savings account offers a competitive 4.5% APY with full liquidity, while the Global Investment account—"
-
-**(Action: Host interrupts mid-sentence)**
-**Host (interrupting):** "Actually, just tell me the minimum balance for the Savings account."
-
-**(Action: Agent stops instantly and pivots)**
-**Agent:** "Of course. The High-Yield Savings account has a zero-dollar minimum balance requirement."
-
-**Host:** "See that? The agent stopped talking the moment I spoke, just like a human concierge. Now, let's look at the 'Vision' capabilities."
-
-**(Action: Host holds up a credit card or a document to the camera)**
-**Host (to Agent):** "I have this card here. Can you tell me if it's eligible for a travel upgrade?"
-
-**(Action: Agent 'sees' the card via the video stream)**
-**Agent:** "I see you're holding the Apex Sapphire card. Yes, you are eligible for a 2x points upgrade on international flights."
+Today, we introduce a smarter way to interact with your finances.
 
 ---
 
-## [1:45 - 2:30] Advanced Features: Veo 3.1
-**(Visual: Host looking at the 'Financial Future' section)**
+## 0:12 – 0:30 | Introducing the AI Concierge
 
-**Host:** "For our premium clients, we wanted something truly immersive. If I ask about my long-term goals..."
+**Visual**
+Interface opens showing the **Private Concierge AI panel**.
 
-**(Action: Host to Agent)**
-**Host:** "I'm planning a trip to the Swiss Alps next year. Can you visualize my wealth journey for that goal?"
+**Narrator**
 
-**(Action: Agent triggers Veo 3.1. A cinematic video starts rendering and then plays)**
-**Host:** "The agent autonomously triggers **Veo 3.1** to generate a cinematic video visualization of my financial journey. It turns abstract numbers into an emotional, high-fidelity experience."
+Meet our **Private Concierge**.
 
----
+This isn’t just a chatbot — it’s a **real-time multimodal AI agent powered by Gemini 2.5 Flash**, securely hosted on a **Google Cloud Virtual Machine**.
 
-## [2:30 - 2:50] Technical Architecture (GCP)
-**(Visual: ASCII Architecture diagram from README or a quick slide)**
-
-**Host:** "Under the hood, this is a full-stack powerhouse. The frontend is built with **React and Vite**, using a custom Web Audio pipeline for 24kHz PCM streaming."
-
-**Host:** "The entire system is deployed on **Google Cloud Platform** using Compute Engine. I built a custom automation script that provisions the VM, configures the firewall, and uses **PM2** to ensure 24/7 reliability."
+It understands **voice, text, images, and context**, enabling natural, human-like banking interactions.
 
 ---
 
-## [2:50 - 3:00] Conclusion & Outro
-**(Visual: Host back on camera)**
+## 0:30 – 0:50 | Account Overview
 
-**Host:** "Cognivox proves that with the Gemini Live API and Google Cloud, we can build AI agents that are not only intelligent but truly human-centric."
+**Visual**
+User speaks into microphone → dashboard appears with accounts summary.
 
-**Host:** "This is my entry for the **#GeminiLiveAgentChallenge**. Thanks for watching, and let’s build the future of finance together!"
+**User**
 
-**(Visual: Text overlay: #GeminiLiveAgentChallenge | Built with Google AI & GCP)**
+“Hey Concierge, I’m looking to review my accounts today.
+Can you give me a quick rundown?”
+
+**Pause for system response**
+
+**Narrator**
+
+The concierge understands **voice, intent, and sentiment**, delivering a secure, hands-free banking experience.
+
+---
+
+## 0:50 – 1:15 | Transaction Execution
+
+**Visual**
+Savings → Checking transfer interface auto-fills.
+
+**User**
+
+“I need to move five hundred dollars from my Savings to my Checking for an upcoming trip.”
+
+**Pause**
+
+**Narrator**
+
+The agent doesn’t just talk — **it acts**.
+
+Behind the scenes, it securely triggers internal banking tools to **pre-fill transfers, validate balances, and complete transactions instantly**.
+
+---
+
+## 1:15 – 1:35 | Financial Advice + Interruptions
+
+**Visual**
+Financial comparison card appears.
+
+**User**
+
+“Can you explain the benefits of the High-Yield Savings account compared to the Global Investment account?”
+
+**User interrupts**
+
+“Hey Concierge, wait a second — I wanted to ask something else.”
+
+**Narrator**
+
+Our Concierge **handles interruptions gracefully**, dynamically adapting the conversation without losing context.
+
+---
+
+## 1:35 – 2:00 | Visual Asset Generation
+
+**Visual**
+Spending graph generated and saved.
+
+**User**
+
+“Can you generate a static summary image of my recent spending for the Asset Vault?”
+
+**Pause**
+
+**Narrator**
+
+Using the **generateVisualAsset** tool, the concierge creates **custom infographics and receipts instantly**, storing them inside your **encrypted Asset Vault**.
+
+---
+
+## 2:00 – 2:30 | Multimodal Vision
+
+**Visual**
+User holds a physical bank statement in front of camera.
+
+**User**
+
+“Concierge, I’m viewing an Apex Bank physical statement in my video feed.
+Can you briefly summarize how these assets compare with my current Apex Global balance?”
+
+**Pause**
+
+**Narrator**
+
+Because our concierge is **natively multimodal**, it doesn’t just hear you — **it sees your world**.
+
+It analyzes **physical documents in real time**, identifies key financial signals, and provides **context-aware financial insights**.
+
+---
+
+## 2:30 – 2:50 | Security
+
+**Visual**
+Face verification + secure lock animation.
+
+**Narrator**
+
+With integrated **identity verification through our Camera Portal** and a **fully encrypted uplink**, your financial data **never leaves the secure Apex environment**.
+
+Security and privacy are built into every interaction.
+
+---
+
+## 2:50 – 3:00 | Closing
+
+**Visual**
+Apex Global Bank logo + tagline.
+
+**Narrator**
+
+**Apex Global Bank.**
+
+Banking at the speed of thought.
+
+Secure.
+Private.
+Multimodal.
+
 
 ---
 **Tips for Recording:**
